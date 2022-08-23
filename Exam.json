@@ -1,0 +1,92 @@
+[
+  {
+    "number": 1,
+    "question": "What are the closures?",
+    "answer 1": "Both Function objects and Scope where function's variables are resolved",
+    "answer 2": "Scope where function's variables are resolved",
+    "answer 3": "Function objects",
+    "answer 4": "Function return value",
+    "rightAnswer": "Function objects"
+  },
+  {
+    "number": 2,
+    "question": "var obj =newF();  then  (obj.constructor === F) ",
+    "answer 1": "false",
+    "answer 2": "1",
+    "answer 3": "0",
+    "answer 4": "true",
+    "rightAnswer": "true"
+  },
+  {
+    "number": 3,
+    "question": "what the output?  +true;  !'Lydia';",
+    "answer 1": "1 and false",
+    "answer 2": "false and Nan",
+    "answer 3": "false and false",
+    "answer 4": "none of the above",
+    "rightAnswer": "1 and false"
+  },
+  {
+    "number": 4,
+    "question": "The 'function' and ' var' are known as:",
+    "answer 1": "Keywords",
+    "answer 2": "Data types",
+    "answer 3": "Prototypes",
+    "answer 4": "Declaration statements",
+    "rightAnswer": "Declaration statements"
+  },
+  {
+    "number": 5,
+    "question": "Which of the following is the correct syntax to select the p siblings of a div element?",
+    "answer 1": "p",
+    "answer 2": "div + p",
+    "answer 3": "div p",
+    "answer 4": "div ~ p",
+    "rightAnswer": "div ~ p"
+  },
+  {
+    "number": 6,
+    "question": "what is Shallow Copy ?",
+    "answer 1": "Shallow copy stores the references of objects to the original memory address.",
+    "answer 2": "Shallow copy makes a new and separate copy of an entire object with its unique memory address.",
+    "answer 3": "Shallow copy is comparatively slower.",
+    "answer 4": "Shallow copy does not reflect changes made to the new/copied object in the original object",
+    "rightAnswer": "Shallow copy stores the references of objects to the original memory address."
+  },
+  {
+    "number": 7,
+    "question": "console.log('I want pizza'[0]);",
+    "answer 1": "'I'",
+    "answer 2": "'''",
+    "answer 3": "SyntaxError",
+    "answer 4": "undefined",
+    "rightAnswer": "'I'"
+  },
+  {
+    "number": 8,
+    "question": "The CSS property used to specify the transparency of an element is ",
+    "answer 1": "opacity",
+    "answer 2": "filter",
+    "answer 3": "visibility",
+    "answer 4": "overlay",
+    "rightAnswer": "opacity"
+  },
+  {
+    "number": 9,
+    "question": "The correct sequence of HTML tags for starting a webpage is",
+    "answer 1": "Head, Title, HTML, body",
+    "answer 2": "HTML, Body, Title, Head",
+    "answer 3": "HTML, Head, Body, Title",
+    "answer 4": "HTML, Head, Title, Body",
+    "rightAnswer": "HTML, Head, Title, Body"
+  },
+  {
+    "number": 10,
+    "question": "The tags in HTML are -",
+    "answer 1": "case-sensitive",
+    "answer 2": "in upper case",
+    "answer 3": "not case sensitive",
+    "answer 4": "in lowercase",
+    "rightAnswer": "not case sensitive"
+  }
+]

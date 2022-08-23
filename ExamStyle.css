@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: tahoma, arial;
+  background-color: #fafafa;
+}
+
+.body {
+  display: flex;
+  margin-top: 30px;
+  height: 400px;
+}
+.time-exam {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.timer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e53939;
+  color: #fafafa;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.timer-div h2 {
+  color: #fff;
+}
+.timer-div span {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 4px;
+}
+
+.mark-div {
+  background-color: rgb(189, 222, 189);
+  width: 18%;
+  height: 420px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mark-div button {
+  margin: 10px;
+  border-radius: 4px;
+  background-color: darkslategrey;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 93%;
+  height: 60px;
+}
+
+.bttnn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p_mark {
+  width: 60%;
+  font-size: 20px;
+}
+
+#removeMark {
+  width: 18%;
+  height: 38px;
+  border: 1px solid #fafafa;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0px opx 3px 5px white;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+#removeMark:hover {
+  background-color: #e53939;
+  color: #fff;
+  border-color: #e53939;
+}
+
+.container {
+  margin: 20px auto;
+  width: 800px;
+  background-color: #8a64;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+  height: 400px;
+}
+
+.container .header {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.container .header .h {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.questions-body {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.questions-body p {
+  margin: 0;
+}
+
+.answers-body {
+  background-color: #fff;
+  padding: 0 10px 10px;
+}
+
+.answers-body .ans {
+  padding: 10px;
+}
+
+.answers-body .ans input[type="Radio"]:checked + label {
+  color: #0075ff;
+}
+
+.answers-body .ans label {
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.buttons {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.next,
+.prev {
+  border: none;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 8px 10px;
+}
+
+.next:hover,
+.prev:hover {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.buttons .counter {
+  background-color: #0075ff;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.buttons .mark {
+  margin-left: 60px;
+  border: none;
+  font-size: 14px;
+  background-color: darkslategrey;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: white;
+}
+.submit {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  width: 30%;
+  border-radius: 6px;
+  background-color: #0075ff;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 0.8s;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.submit-btn :focus {
+  background-color: #4caf50;
+}
+.submit-btn:hover {
+  width: 100%;
+  background-color: #4caf50;
+}
+
+.finish-time {
+  margin-top: 30px;
+  color: #e53939;
+  background-color: #fafafa;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

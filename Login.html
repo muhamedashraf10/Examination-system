@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="icon" href="1.png" />
+    <link rel="stylesheet" href="LoginRegistStyle.css" />
+    <title>Sign in</title>
+  </head>
+  <body class="body_login">
+    <div class="container_login">
+      <div class="page2From">
+        <form action="Exam.html" onsubmit="validation2(event)">
+          <div class="formInputs successEmail errorEmail">
+            <input type="email" id="loginEmail" placeholder="email" required />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="erroremail">Email cannot be found</span>
+          </div>
+          <div class="formInputs successPass errorPass">
+            <input
+              type="password"
+              id="loginPass"
+              placeholder="password"
+              required
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="errorpass">Error Password</span>
+          </div>
+          <div class="submit-div">
+            <input type="submit" id="submit" value="log in" />
+          </div>
+          <div class="link">
+            <p>
+              Do you need already account ?
+              <a href="Registration.html">Create Account!</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="LoginRegistScript.js"></script>
+  </body>
+</html>

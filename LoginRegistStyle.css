@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body_regist {
+  background-color: #8a64;
+  background-image: url("a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_regist {
+  margin: 20px auto;
+  width: 45%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 430px;
+  opacity: 0.9;
+  position: relative;
+  left: -23%;
+}
+
+h1 {
+  text-align: center;
+  color: #212121;
+}
+
+label {
+  display: block;
+}
+
+.form-inputs input {
+  min-height: 25px;
+  display: block;
+  outline: none;
+  width: 90%;
+  margin-top: 30px;
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+input:focus {
+  background-color: white;
+  outline: none;
+}
+
+.input #submit {
+  background-color: #212121;
+  width: 40%;
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 50%;
+  color: white;
+  cursor: pointer;
+  transition: 1.1s;
+}
+
+.input #submit:hover {
+  background-color: tomato;
+  transform: scale(1.1);
+}
+
+.login-inputs {
+  align-content: center;
+  width: 30%;
+  margin-left: 35%;
+  outline: none;
+  border-radius: 3px;
+}
+
+/* page Login */
+
+.body_login {
+  background-image: url("login.jpeg");
+}
+
+.container_login {
+  background-color: white;
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.page2From {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.formInputs {
+  padding-top: 5%;
+  position: relative;
+}
+
+.page2From input {
+  min-height: 25px;
+  display: block;
+  outline: none;
+  width: 80%;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  margin-left: 20px;
+  font-size: 15px;
+}
+/* .formInputs.success input {
+  border-color: #2ecc71;
+}
+.formInputs.error input {
+  border-color: #e74c3c;
+} */
+i.fa-circle-check {
+  visibility: hidden;
+  color: #2ecc71;
+}
+i.fa-circle-exclamation {
+  visibility: hidden;
+  color: #e74c3c;
+}
+.formInputs i {
+  position: absolute;
+  top: 48px;
+  right: 78px;
+}
+.formInputs span {
+  visibility: hidden;
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+  font-size: 14px;
+}
+.errorpass,
+.erroremail {
+  visibility: hidden;
+  color: #e74c3c;
+}
+
+.submit-div input {
+  margin-top: 60px;
+}
+#submit {
+  margin-left: 28%;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 6px;
+  background-color: brown;
+}
+
+#submit:hover {
+  background-color: darkslategrey;
+}
+
+.header h1 {
+  margin-top: 80px;
+}
+
+.link {
+  margin: 30px 0px;
+  text-align: center;
+}
